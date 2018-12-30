@@ -1,5 +1,5 @@
 #!/bin/sh
-issues_url="https://api.github.com/repos/jgamblin/NMapActions/issues"
+issues_url="https://api.github.com/repos/jgamblin/NMap-Action/issues"
 
 nmap  --script nmap-vulners,vulscan --script-args vulscandb=exploitdb.csv -sV --open -iL scan.txt --oN outputfile.txt
 
